@@ -4,36 +4,43 @@ Napole0n est un **outil de cybersécurité complet** conçu pour effectuer des t
 
 ## 🔑 **Features / Fonctionnalités** :
 
-### 🔐 **Cryptography** :
-- **Key Management** : Gérer les clés cryptographiques.
-- **Encryption / Decryption** : Chiffrement et déchiffrement des données.
-- **Hashing** : Générer des empreintes de hachage pour assurer l'intégrité des données.
 
-### 🛡️ **Vulnerability Analysis** :
-- **Port Scanning** : Scanner les ports ouverts sur une cible.
-- **Service Detection** : Identifier les services en cours d'exécution sur une machine distante.
-- **CVE Discovery** : Découvrir les vulnérabilités connues via les CVE.
+### 1. 🔐 Cryptography
+- **`KeyDerivation.py`**: Manage and store cryptographic keys securely. *(Aliases: `keyman`, `km`, `keymanager`)*
+- **`SecureFileEncryption.py`**: Encrypt and decrypt files securely. *(Aliases: `fileenc`, `encfile`, `securecrypt`)*
+- **`EncryptionDetector.py`**: Detect obsolete encryption algorithms (e.g., MD5). *(Aliases: `encdetect`, `encryptioncheck`)*
+- **`AESDecryption.py`**: Decrypt AES-encrypted data for testing purposes. *(Aliases: `aesdec`, `decryptaes`)*
+- **`PasswordStrengthChecker.py`**: Check the strength of passwords. *(Aliases: `pwdcheck`, `pwdstrength`, `passcheck`)*
 
-### 💻 **Penetration Testing** :
-- **Payload Generator** : Créer des charges utiles pour les tests d'intrusion.
-- **Brute Force Attacks** : Lancer des attaques par force brute sur des mots de passe.
-- **Exploit Scanner** : Identifier des vulnérabilités exploitables dans une cible.
+### 🛡️ 2. Vulnerability Analysis
+- **`SubdomainBruteForcer.py`**: Brute force to discover subdomains. *(Aliases: `subdomscan`, `subbruteforce`)*
+- **`SSRFDetector.py`**: Detect SSRF attacks. *(Aliases: `ssrfdetect`, `ssrfscan`)*
+- **`SQLInjectionTester.py`**: Test for SQL injection vulnerabilities. *(Aliases: `sqlinject`, `sqltest`)*
+- **`XSSScanner.py`**: Scan for Cross-Site Scripting vulnerabilities. *(Aliases: `xssscan`, `xsscheck`)*
+- **`OpenPortScanner.py`**: Scan open ports to identify vulnerabilities. *(Aliases: `portscan`, `opnscan`)*
 
-### 🌐 **Network Monitoring** :
-- **Traffic Sniffer** : Analyser le trafic réseau en temps réel.
-- **Intrusion Detection** : Détecter des intrusions sur un réseau.
-- **Protocol Analysis** : Analyser les protocoles réseau pour détecter des anomalies.
+### 💻 3. Penetration Testing
+- **`PayloadGenerator.py`**: Generate and customize penetration testing payloads. *(Aliases: `paygen`, `payloadgen`)*
+- **`ExploitScanner.py`**: Scan systems for known vulnerabilities and exploits. *(Aliases: `explscan`, `vulnsweep`)*
+- **`PasswordBruteForcer.py`**: Perform brute force attacks to test password strength. *(Aliases: `pwbrute`, `bfpass`)*
 
-### 🔎 **OSINT** (Open Source Intelligence) :
-- **Domain Recon** : Recherche d'informations sur les domaines.
-- **Metadata Extraction** : Extraire des métadonnées des fichiers et documents.
-- **Social Media Scraping** : Scraper des informations publiques sur les réseaux sociaux.
+### 🌐 4. Network Monitoring
+- **`PacketSniffer.py`**: Capture and analyze network packets. *(Aliases: `pktcapture`, `netsniff`)*
+- **`IntrusionDetection.py`**: Detect network intrusions or abnormal behavior. *(Aliases: `idpscan`, `netintrusion`)*
+- **`TrafficLogger.py`**: Log and monitor network traffic. *(Aliases: `trafficlog`, `netlog`)*
+- **`ProtocolAnalyzer.py`**: Inspect and decode specific network protocols. *(Aliases: `protanalyze`, `netproto`)*
 
-### 📜 **Automation and Reporting** :
-- **Task Scheduler** : Planification de tâches automatisées pour des audits réguliers.
-- **Log Centralization** : Centraliser les logs de sécurité pour une analyse approfondie.
-- **Report Generator** : Générer des rapports de sécurité personnalisés.
+### 🔎 5. OSINT
+- **`DomainRecon.py`**: Perform reconnaissance on domain names. *(Aliases: `domrecon`, `domaincheck`)*
+- **`IPGeolocation.py`**: Locate IP addresses geographically. *(Aliases: `ipgeo`, `locateip`)*
+- **`PwnedChecker.py`**: Check if an account is part of known breaches. *(Aliases: `pwned`, `breachcheck`)*
 
+### 📜 6. Automation & Reporting
+- **`TaskScheduler.py`**: Automate and schedule recurring tasks. *(Aliases: `tasksched`, `scheduler`)*
+- **`LogCentralizer.py`**: Centralize logs from multiple sources. *(Aliases: `logmerge`, `logcentral`)*
+- **`ReportGenerator.py`**: Generate detailed reports (PDF, CSV, etc.). *(Aliases: `reportgen`, `repgen`)*
+- **`TrafficVisualizer.py`**: Visualize network traffic and patterns. *(Aliases: `netvisual`, `trafficview`)*
+- **`ExploitReportGenerator.py`**: Generate reports for identified vulnerabilities and exploits. *(Aliases: `exploitgen`, `vulnreport`)*
 ---
 
 ## ⚙️ **Installation** :
